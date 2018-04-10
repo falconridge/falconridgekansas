@@ -90,19 +90,19 @@ googleAnalytics = "UA-117272854-1"
     [[params.resources.row]]
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Declaration of Restrictions"
       description = "Falcon Ridge Declaration of Restrictions"
       url = "docs/fr-declaration.pdf"
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Declaration Amendments"
       description = "Falcon Ridge Declaration of Restrictions Amendments"
       url = "docs/fr-declaration-amendments.pdf"
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Estates Declaration of Restrictions"
       description = "Falcon Ridge Estates Declaration of Restrictions"
       url = "docs/fre-declaration.pdf"
@@ -110,19 +110,19 @@ googleAnalytics = "UA-117272854-1"
     [[params.resources.row]]
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Estates Declaration Amendments"
       description = "Falcon Ridge Estates Declaration of Restrictions Amendments"
       url = "docs/fre-declaration-amendments.pdf"
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Architectural Approval Form"
       description = "Need to make some changes? Make sure you use this form to get the proper approvals and assistance on your journey."
       url = "docs/architectural-approval-form.pdf"
 
     [[params.resources.row.list]]
-      icon = "fa-file-text"
+      icon = "fa-file-pdf-o"
       title = "Roofing Guidelines"
       description = "We have roofing guidelines to help create consistency throughout the community as well as to protect you from predatory companies looking to make a quick buck."
       url = "docs/roofing-guidelines.pdf"
@@ -136,10 +136,16 @@ googleAnalytics = "UA-117272854-1"
       url = "#"
 
     [[params.resources.row.list]]
-      icon = "fa-trash"
-      title = "Trash Pickup"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      icon = "fa-bolt"
+      title = "Electricity/KCP&L"
+      description = "Electricity is provided by Kansas City Power & Light. New/Stop service requests and bill payments may be done automatically on the website."
+      url = "//www.kcpl.com/"
+
+    [[params.resources.row.list]]
+      icon = "fa-google"
+      title = "Internet"
+      description = "Our community has Google Fiber for your internet needs. We also have access to other providers"
+      url = "//fiber.google.com/cities/kansascity/"
 
   # Amenities section
   [params.amenities]
