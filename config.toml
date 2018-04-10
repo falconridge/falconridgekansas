@@ -65,6 +65,11 @@ googleAnalytics = "UA-117272854-1"
     #  name = "Hugo"
     #  weight = 10
 
+    [[menu.prepend]]
+      url = "http://sale.falconridgekansas.com"
+      name = "Garage Sale"
+      weight = 10
+
     # postpended links
     # [[menu.postpend]]
     #   url = "http://gohugo.io"
@@ -204,15 +209,15 @@ googleAnalytics = "UA-117272854-1"
     # Possibility to center items
     center = true
     title = "Board of Directors"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "We will strive for transparency by default."
+    description = "The Board of Directors is elected by the HOA members. They represent the community as a whole and seek input from all involved. They also look to the future by creating a strategy for growth and maintenance"
 
     # All board member's pictures are stored under 'static/img/board'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.board.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
+      img = "default.jpg"
+      name = "Todd Stanley"
       position = "President"
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
@@ -222,51 +227,55 @@ googleAnalytics = "UA-117272854-1"
       #   "Open Source [community management](#)"
       # ]
       # For bio, markdown and even multiline strings are available.
-      bio = """Kay has been a board member for three years. She always puts her community first."""
+      bio = """Todd is the President."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        #["fa-linkedin", "#"]
       ]
 
     [[params.board.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
+      img = "default.jpg"
+      name = "John Storey"
       position = "Vice President"
+      bio = """John is the Vice President."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        #["fa-linkedin", "#"]
       ]
 
     [[params.board.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
+      img = "default.jpg"
+      name = "Kurt Doyle"
       position = "Secretary"
+      bio = """Kurt is the Secretary."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        #["fa-linkedin", "#"]
       ]
 
     [[params.board.members]]
-      img = "3.jpg"
-      name = "James Freeman"
+      img = "default.jpg"
+      name = "Shawn Blume"
       position = "Treasurer"
+      bio = """Shawn is the Treasurer."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        #["fa-linkedin", "#"]
       ]
 
     [[params.board.members]]
-      img = "3.jpg"
-      name = "Chelsea Menlo"
-      position = "Social Chair"
+      img = "default.jpg"
+      name = "Laura Barker"
+      position = "Member"
+      bio = """Laura brought back **Falcon Fest** the last two years, which has been a blast. She is striving to create a vibrant culture by highlighting our history and driving toward a shared future everyone can enjoy. Through this, she has found transparency is paramount to build trust within the community and ensure the board is focused on delivering value to homeowners."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/laura-sherman-barker-2b643a122/"]
       ]
 
   # Sponsor section
@@ -300,7 +309,7 @@ googleAnalytics = "UA-117272854-1"
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "We want to hear from you."
     buttonText = "Send message"
     # netlify = true
 
@@ -322,7 +331,7 @@ googleAnalytics = "UA-117272854-1"
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "board@falconridgekansas.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for contacting us. Someone from the community will get back to you soon."
@@ -362,20 +371,20 @@ googleAnalytics = "UA-117272854-1"
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+    #   title = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "#"
+      link = "https://www.facebook.com/falconridgekansas/"
       title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+    # [[params.footer.social]]
+    #   icon = "fa-linkedin"
+    #   link = "#"
+    #   title = "LinkedIn"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
