@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "http://falconridgekansas.com/"
 languageCode = "en-us"
 title = "Community"
 theme = "hugo-community-theme"
