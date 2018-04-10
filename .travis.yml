@@ -26,7 +26,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local-dir: public
-  repo: cloudevents/cloudevents.github.io
+  repo: falconridge/falconridge.github.io
   target-branch: master
   on:
     branch: master
