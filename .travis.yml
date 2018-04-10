@@ -28,5 +28,6 @@ deploy:
   local-dir: public
   repo: falconridge/falconridge.github.io
   target-branch: master
+  keep-history: true
   on:
     branch: master
