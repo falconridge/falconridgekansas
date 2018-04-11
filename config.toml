@@ -275,7 +275,8 @@ googleAnalytics = "UA-117272854-1"
       social = [
         #["fa-twitter", "#"],
         #["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/laura-sherman-barker-2b643a122/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/laura-sherman-barker-2b643a122/"],
+        ["fa-envelope", "mailto:laura@falconridgekansas.com"]
       ]
 
   # Sponsor section
