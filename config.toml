@@ -122,17 +122,23 @@ googleAnalytics = "UA-117272854-1"
 
     [[params.resources.row.list]]
       icon = "fa-file-pdf-o"
+      title = "Bylaws"
+      description = "These are the Bylaws currently posted by the Tiehen Group."
+      url = "docs/bylaws.pdf"
+
+    [[params.resources.row.list]]
+      icon = "fa-file-pdf-o"
       title = "Architectural Approval Form"
       description = "Need to make some changes? Make sure you use this form to get the proper approvals and assistance on your journey."
       url = "docs/architectural-approval-form.pdf"
+
+    [[params.resources.row]]
 
     [[params.resources.row.list]]
       icon = "fa-file-pdf-o"
       title = "Roofing Guidelines"
       description = "We have roofing guidelines to help create consistency throughout the community as well as to protect you from predatory companies looking to make a quick buck."
       url = "docs/roofing-guidelines.pdf"
-
-    [[params.resources.row]]
 
     [[params.resources.row.list]]
       icon = "fa-slack"
@@ -145,6 +151,8 @@ googleAnalytics = "UA-117272854-1"
       title = "Electricity/KCP&L"
       description = "Electricity is provided by Kansas City Power & Light. New/Stop service requests and bill payments may be done automatically on the website."
       url = "//www.kcpl.com/"
+
+    [[params.resources.row]]
 
     [[params.resources.row.list]]
       icon = "fa-google"
@@ -171,37 +179,36 @@ googleAnalytics = "UA-117272854-1"
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Meetings and Events Timeline"
+    subtitle = "Here you can find information about future and past meetings including agendas and minutes. We'll also share events here."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "September 9th, 2018"
-      title = "Meeting 4"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "meeting.png"
+      date = "July 26th, 2018"
+      title = "Board Meeting"
+      description = "The agenda for this meeting has not been posted."
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "July 12th, 2018"
-      title = "Meeting 3"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "meeting.png"
+      date = "May 31st, 2018"
+      title = "Board Meeting"
+      description = "The agenda for this meeting has not been posted."
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "May 8th, 2018"
-      title = "Meeting 2"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "annual-meeting.png"
+      date = "April 26th, 2018"
+      title = "Special Meeting of the Members"
+      description = "The agenda for this meeting has not been posted."
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "March 5th, 2018"
+      img = "annual-meeting.png"
+      date = "March 27th, 2018"
       title = "Annual Meeting"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
+      description = "The minutes are not yet available, but the [mailer](docs/2018-annual-meeting.pdf) is available for this meeting."
 
   # Board section
   [params.board]
