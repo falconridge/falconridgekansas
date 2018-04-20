@@ -202,7 +202,7 @@ googleAnalytics = "UA-117272854-1"
       img = "annual-meeting.png"
       date = "April 26th, 2018"
       title = "Special Meeting of the Members"
-      description = "The agenda for this meeting has not been posted."
+      description = "The agenda for this meeting is available [here](docs/agenda-april-26-2018.pdf)."
 
     [[params.about.events]]
       img = "annual-meeting.png"
@@ -267,7 +267,7 @@ googleAnalytics = "UA-117272854-1"
       img = "default.jpg"
       name = "Shawn Blume"
       position = "Treasurer"
-      bio = """Shawn is the Treasurer."""
+      bio = """Shawn is the Treasurer. His wife, Natalee, and he have organized the wonderful holiday hayride for several years now. It's an event enjoyed by all."""
       social = [
         #["fa-twitter", "#"],
         #["fa-facebook", "#"],
