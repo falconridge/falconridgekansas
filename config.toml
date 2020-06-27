@@ -263,29 +263,6 @@ googleAnalytics = "UA-117272854-1"
         #["fa-linkedin", "#"]
       ]
 
-    [[params.board.members]]
-      img = "default.jpg"
-      name = "Shawn Blume"
-      position = "Treasurer"
-      bio = """Shawn is the Treasurer. His wife, Natalee, and he have organized the wonderful holiday hayride for several years now. It's an event enjoyed by all."""
-      social = [
-        #["fa-twitter", "#"],
-        #["fa-facebook", "#"],
-        #["fa-linkedin", "#"]
-      ]
-
-    [[params.board.members]]
-      img = "default.jpg"
-      name = "Laura Barker"
-      position = "Member"
-      bio = """Laura brought back **Falcon Fest** the last two years, which has been a blast. She is striving to create a vibrant culture by highlighting our history and driving toward a shared future everyone can enjoy. Through this, she has found transparency is paramount to build trust within the community and ensure the board is focused on delivering value to homeowners."""
-      social = [
-        #["fa-twitter", "#"],
-        #["fa-facebook", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/laura-sherman-barker-2b643a122/"],
-        ["fa-envelope", "mailto:laura@falconridgekansas.com"]
-      ]
-
   # Sponsor section
     [params.sponsors_list]
       # enable = true
@@ -339,7 +316,7 @@ googleAnalytics = "UA-117272854-1"
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "board@falconridgekansas.com"
+    email = "dan@falconridgekansas.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for contacting us. Someone from the community will get back to you soon."
